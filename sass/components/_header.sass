@@ -1,0 +1,81 @@
+.site-header
+  &__secondary-nav
+    background: $pink-1
+    font-size: 12px
+
+  &__seperator
+    height: 20px
+    width: 2px
+    background: #c9a998
+
+  &__account,
+  &__cart
+    padding-top: 0
+    padding-bottom: 0
+
+  &__account
+    margin-left: 10px
+
+  &__cart
+    margin-left: 10px
+    margin-right: 10px
+    
+    svg
+      margin-right: 5px
+
+  &__search
+    padding-top: 5px
+    padding-bottom: 5px
+    margin-right: 10px
+
+    form
+      position: relative
+
+    input
+      padding: 0 31px 0 12px
+      width: 161px
+      height: 20px
+
+    .search-header
+      &__submit
+        position: absolute
+        top: 50%
+        -webkit-transform: translateY(-50%)
+        transform: translateY(-50%)
+        right: 1px
+        padding: 0 5px
+        background: transparent
+        border: 0
+        height: 19px
+        width: 19px
+        cursor: pointer
+    .icon-search
+      margin-top: -6px
+
+  &__icon
+    svg
+      display: inline-block
+      width: 10px
+      height: 10px
+
+  &__primary-nav
+    font-size: 13px
+    
+    .logo-align
+      &--left
+        order: 0
+        
+      &--center
+        order: 1
+
+    .nav-menu
+      &--left
+        order: 0
+        
+      &--right
+        order: 2
+
+    .site-nav
+      &__menu
+        padding: 0 8px
+        text-transform: uppercase

@@ -1,0 +1,19 @@
+%input
+  font-size: 12px
+  height: 50px
+  color: #363636
+  padding-left: 10px
+  padding-right: 10px
+  border: 1px solid #e0e0e0
+
+  &::placeholder
+    color: $placeholder-color
+
+  &:focus
+    outline: 0
+  
+input
+  &[type="text"],
+  &[type="email"],
+  &[type="password"]
+    @extend %input
